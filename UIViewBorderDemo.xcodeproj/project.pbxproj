@@ -16,6 +16,9 @@
 		D26B16081B58E65E00538817 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D26B16061B58E65E00538817 /* LaunchScreen.xib */; };
 		D26B16141B58E65E00538817 /* UIViewBorderDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D26B16131B58E65E00538817 /* UIViewBorderDemoTests.m */; };
 		D26B16201B58E6AD00538817 /* UIView+Border.m in Sources */ = {isa = PBXBuildFile; fileRef = D26B161F1B58E6AD00538817 /* UIView+Border.m */; };
+		D26B16251B58F1A700538817 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = D26B16211B58F1A700538817 /* LICENSE */; };
+		D26B16261B58F1A700538817 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = D26B16221B58F1A700538817 /* README.md */; };
+		D26B16271B58F1A700538817 /* screenshot-1.png in Resources */ = {isa = PBXBuildFile; fileRef = D26B16241B58F1A700538817 /* screenshot-1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +49,9 @@
 		D26B16131B58E65E00538817 /* UIViewBorderDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIViewBorderDemoTests.m; sourceTree = "<group>"; };
 		D26B161E1B58E6AD00538817 /* UIView+Border.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Border.h"; sourceTree = "<group>"; };
 		D26B161F1B58E6AD00538817 /* UIView+Border.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Border.m"; sourceTree = "<group>"; };
+		D26B16211B58F1A700538817 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		D26B16221B58F1A700538817 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D26B16241B58F1A700538817 /* screenshot-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screenshot-1.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +75,9 @@
 		D26B15E81B58E65E00538817 = {
 			isa = PBXGroup;
 			children = (
+				D26B16211B58F1A700538817 /* LICENSE */,
+				D26B16221B58F1A700538817 /* README.md */,
+				D26B16231B58F1A700538817 /* ScreenShots */,
 				D26B161D1B58E6AD00538817 /* UIView-Borders */,
 				D26B15F31B58E65E00538817 /* UIViewBorderDemo */,
 				D26B16101B58E65E00538817 /* UIViewBorderDemoTests */,
@@ -135,6 +144,14 @@
 				D26B161F1B58E6AD00538817 /* UIView+Border.m */,
 			);
 			path = "UIView-Borders";
+			sourceTree = "<group>";
+		};
+		D26B16231B58F1A700538817 /* ScreenShots */ = {
+			isa = PBXGroup;
+			children = (
+				D26B16241B58F1A700538817 /* screenshot-1.png */,
+			);
+			path = ScreenShots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,6 +236,8 @@
 			files = (
 				D26B16031B58E65E00538817 /* Main.storyboard in Resources */,
 				D26B16081B58E65E00538817 /* LaunchScreen.xib in Resources */,
+				D26B16251B58F1A700538817 /* LICENSE in Resources */,
+				D26B16271B58F1A700538817 /* screenshot-1.png in Resources */,
 				D26B16051B58E65E00538817 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -237,6 +256,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D26B16261B58F1A700538817 /* README.md in Sources */,
 				D26B15FA1B58E65E00538817 /* AppDelegate.m in Sources */,
 				D26B16201B58E6AD00538817 /* UIView+Border.m in Sources */,
 				D26B15FD1B58E65E00538817 /* MasterViewController.m in Sources */,
@@ -436,6 +456,7 @@
 				D26B16191B58E65E00538817 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D26B161A1B58E65E00538817 /* Build configuration list for PBXNativeTarget "UIViewBorderDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -444,6 +465,7 @@
 				D26B161C1B58E65E00538817 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
