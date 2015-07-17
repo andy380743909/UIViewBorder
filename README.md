@@ -8,7 +8,7 @@ set each border for a UIView or UIView subclass instance seperatedly
 
 # Use
 ```
-CGFloat itemWidth = CGRectGetWidth((self.view.frame))/3;
+    CGFloat itemWidth = CGRectGetWidth((self.view.frame))/3;
     CGFloat itemHeight = 100;
     
     int maxRow = 2;
